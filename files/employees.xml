@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee id="1">
+    <firstName>Jane</firstName>
+    <lastName>Chen</lastName>
+    <email>jsmith@example.com</email>
+    <phone>(555) 123-4567</phone>
+    <department>Engineering</department>
+    <title>Senior Developer</title>
+    <hireDate>2019-03-15</hireDate>
+  </employee>
+  <employee id="2">
+    <firstName>Yuuya</firstName>
+    <lastName>Matsumoto</lastName>
+    <email>sjohnson@example.com</email>
+    <phone>(555) 234-5678</phone>
+    <department>Marketing</department>
+    <title>Marketing Manager</title>
+    <hireDate>2020-06-22</hireDate>
+  </employee>
+  <employee id="3">
+    <firstName>Kwame</firstName>
+    <lastName>Ndiaye</lastName>
+    <email>rwilliams@example.com</email>
+    <phone>(555) 345-6789</phone>
+    <department>Product</department>
+    <title>Product Manager</title>
+    <hireDate>2018-11-05</hireDate>
+  </employee>
+  <employee id="4">
+    <firstName>Raul</firstName>
+    <lastName>Rodriguez</lastName>
+    <email>jdavis@example.com</email>
+    <phone>(555) 456-7890</phone>
+    <department>Engineering</department>
+    <title>Developer</title>
+    <hireDate>2021-01-10</hireDate>
+  </employee>
+  <employee id="5">
+    <firstName>Jennifer</firstName>
+    <lastName>Stanton</lastName>
+    <email>mbrown@example.com</email>
+    <phone>(555) 567-8901</phone>
+    <department>Sales</department>
+    <title>Sales Representative</title>
+    <hireDate>2020-09-18</hireDate>
+  </employee>
+</employees>

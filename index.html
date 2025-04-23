@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>XML/XSL Employee Filter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="files/vecteezy_disney-logo-on-transparent-background_14414670.jpg">
+                <h1>Employee XML/XSL Filter Demo</h1>
+            </div>
+
+            <div class="upload-section">
+                <h2>Upload Files</h2>
+                <div class="file-inputs">
+                    <div class="file-input">
+                        <label for="xml-file">XML File:</label>
+                        <input type="file" id="xml-file" accept=".xml">
+                    </div>
+                    <div class="file-input">
+                        <label for="xsl-file">XSL File:</label>
+                        <input type="file" id="xsl-file" accept=".xsl">
+                    </div>
+                </div>
+                <button id="upload-btn">Load Files</button>
+            </div>
+
+            <div id="filter-section" class="filter-section hidden">
+                <h2>Filter Options</h2>
+                <div class="filter-inputs">
+                    <div class="filter-input">
+                        <label for="department-filter">Department:</label>
+                        <select id="department-filter">
+                            <option value="all">All Departments</option>
+                        </select>
+                    </div>
+                    <div class="filter-input">
+                        <label for="title-filter">Job Title:</label>
+                        <select id="title-filter">
+                            <option value="all">All Titles</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="apply-filter-btn">Apply Filters</button>
+            </div>
+
+            <div id="result-section" class="result-section hidden">
+                <h2>Results</h2>
+                <div id="result-container"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
